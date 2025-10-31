@@ -29,8 +29,8 @@ Feature	Description
       │      Function Calls         │
       ▼                             ▼
 ┌──────────┐     ┌───────────────────────┐   ┌─────────────────┐
-│ Terraform│◄───►│ AWS Config API       │◄─►│ CloudWatch Logs  │
-│ State &  │     │ (read-only)          │   │ Insights         │
+│ Terraform│◄───►│ AWS Config API        │◄─►│ CloudWatch Logs │
+│ State &  │     │ (read-only)           │   │ Insights        │
 │ Plan     │     └───────────────────────┘   └─────────────────┘
 └────┬─────┘             │
      │ Parsed context    │ Structured output + TF suggestion
